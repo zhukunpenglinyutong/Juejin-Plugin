@@ -1,8 +1,8 @@
-let userId = '5bf38e53518825490e0f764b'
+// let userId = '5bf38e53518825490e0f764b'
 
-let url = `https://user-like-wrapper-ms.juejin.im/v1/user/${userId}/like/entry?page=0&pageSize=30`
+// let url = `https://user-like-wrapper-ms.juejin.im/v1/user/${userId}/like/entry?page=0&pageSize=30`
 
-console.log('axios', axios)
+// console.log('axios', axios)
 // 发送API请求
 // fetch(`https://user-like-wrapper-ms.juejin.im/v1/user/${userId}/like/entry?page=0&pageSize=30`, {
 //     mode: "no-cors",
@@ -18,16 +18,10 @@ console.log('axios', axios)
 //     console.log(myJson);
 //   });
 
-axios.get(url, {
-    headers: {
-        'Content-Type':'application/x-www-form-urlencoded',
-        "X-Juejin-Src": "web"
-    }
-}).then(res => {
+axios.post('http://localhost:3000/proxy', { userId: '5bf38e53518825490e0f764b'}).then(res => {
     console.log('res', res)
-    resolve(res.data.d)
 }).catch(e => {
-    reject(e)
+    // reject(e)
 })
 
 class Zhu {
@@ -122,7 +116,7 @@ class Zhu {
 window.onload = function(){ 
     // 下面节点有时候为空，导致我需要使用定时器来保证节点的正常添加
     // console.log('页面加载完成', document.querySelectorAll('.nav-item.not-in-scroll-mode .more-panel .more-item'))
-    let zhu = new Zhu()
+    // let zhu = new Zhu()
 } 
 
 
