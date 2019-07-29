@@ -19,7 +19,6 @@ class DataReq {
     getData(userId) {
 
         return new Promise (async (resolve, reject) => {
-
             // 因为现成的掘金接口，一次只能拿到30个数据，如果点赞很多文章的话，我们需要拼接很多次请求才行
             // 思考一：等一个请求返回后，再把page的值增加，直到返回数组为空，不再进行请求，这样是个串行的
             // ✅ 思考二：在发送请求之前，先发送一个 page=0&pageSize=0 这时会返回你有多少点赞的文章数量，根据数量这个就能获取到需要发送的次数，这个是并行的
@@ -40,9 +39,10 @@ class DataReq {
                 let resData = that.dataHandle(arr.flat())
                 resolve(resData) // 经过处理类处理后的数据
             }));
-    
         })
+
     }
+
 
     /**
      * 请求page=0&pageSize=0 结果用于生成多次axios请求（原因是掘金接口一次拿不到全部点赞数据，上限是30）
@@ -71,6 +71,7 @@ class DataReq {
 
         })
     }
+
 
     /**
      * 数据处理函数（内部使用）
@@ -117,17 +118,14 @@ class DataReq {
 
         // 整成想要的格式
         resArr.forEach( item => {
-            
             aaa.forEach( jtem => {
-
                 jtem.tags.some( j => j === item.name) ? item.data.push(jtem) : ''
-
             })
-
         })
 
         return resArr
     }
+
 }
 
 

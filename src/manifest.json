@@ -19,11 +19,14 @@
                 "https://juejin.im/user/*"
             ],
             "js": [
+                "js/vue.js",
+                "js/element-ui.js",
                 "js/axios.js",
                 "index.js"
             ],
             "css": [
-                "index.css"
+                "css/element-ui.css",
+                "css/index.css"
             ],
             "run_at": "document_end"
         }
