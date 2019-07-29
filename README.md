@@ -7,6 +7,8 @@
 ### 1.使用
 
 ```js
+// 需要环境：Node.js
+
 git clone https://github.com/zhukunpenglinyutong/Juejin-Plugin.git
 
 npm i
