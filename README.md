@@ -28,6 +28,7 @@ pm2 start proxyServe // 启动代理
 
 <video src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/Juejin-Plugin/1%E5%88%86%E7%B1%BB%E6%8F%92%E4%BB%B6.mp4" controls="controls">
 您的浏览器不支持 video 标签。
+<a href="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/Juejin-Plugin/1%E5%88%86%E7%B1%BB%E6%8F%92%E4%BB%B6.mp4">视频展示不了，点击这里</a>
 </video>
 
 
