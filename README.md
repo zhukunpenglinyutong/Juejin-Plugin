@@ -34,17 +34,19 @@ node ./proxyServe/index.js // 启动代理（pm2启动也赞同）
 
 <video src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/Juejin-Plugin/1%E5%88%86%E7%B1%BB%E6%8F%92%E4%BB%B6.mp4" controls="controls">
 您的浏览器不支持 video 标签。
-<a href="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/Juejin-Plugin/1%E5%88%86%E7%B1%BB%E6%8F%92%E4%BB%B6.mp4">视频展示不了，点击这里（视频中演示的目录和现在目录不一样，目录变更为 插件一：赞文章分类功能/谷歌浏览器插件版本）</a>
+<p><a href="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/Juejin-Plugin/1%E5%88%86%E7%B1%BB%E6%8F%92%E4%BB%B6.mp4">视频展示不了，点击这里（视频中演示的目录和现在目录不一样，目录变更为 插件一：赞文章分类功能/谷歌浏览器插件版本）</a></p>
 </video>
 
 ---
 
 ### 2.tampermonkey插件使用（油猴🔥🔥🔥）
 
-**怎么安装，懂的人无需多言，此版本因为element.ui引入有问题，所以我自己通过原生JS手写一套展示效果，目前数据已经处理完成，只差展示，还未上传到GreasyFork 上，但是已经开源了此处的代码，只差视图展示了，老哥们可以试试，我应该今天晚上没事可以写完，有事要明天了**
+**怎么安装，懂的人无需多言**
 
-- 此版本插件，没有跨域问题，提高速度 35%+
-- 此版本插件，采用原生JS写法构建展示效果，不依赖 element.ui，提高了加载效率
+**此版本因为element.ui引入有问题，所以我自己通过原生JS手写一套展示效果，目前数据已经处理完成，只差展示，还未上传到GreasyFork 上，但是已经开源了此处的代码 [代码链接](https://github.com/zhukunpenglinyutong/Juejin-Plugin/blob/master/%E6%8F%92%E4%BB%B6%E4%B8%80%EF%BC%9A%E8%B5%9E%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8A%9F%E8%83%BD/tampermonkey%E7%89%88%E6%9C%AC%EF%BC%88%E6%B2%B9%E7%8C%B4%EF%BC%89/index.js)，只差视图展示了，老哥们可以试试，我应该今天晚上没事可以写完，有事要明天了**
+
+- 此版本插件，没有跨域问题，提高速度 50%+（站长3.7k的点赞文章，也能在15s左右处理完成，我点赞文章100+，基本上1-2s左右，甚至更短）
+- 此版本插件，采用原生JS写法构建展示效果，不依赖 element.ui，简化了需要下载的文件
 - 此版本插件，采用 我自己写的简单MVVM 实现数据响应，优化DOM部分操作的代码，代码更清晰
 
 ---

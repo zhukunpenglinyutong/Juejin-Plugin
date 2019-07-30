@@ -46,7 +46,7 @@ function eventBus() {
         let dataReq = new DataReq()
         let userId = location.pathname.match(/\w{24}/)[0]
         let res = await dataReq.getData(userId) // 获取数据
-        createDOM() // 创建展示数据的DOM层
+        createDOM(res) // 创建展示数据的DOM层
     })
 }
 
