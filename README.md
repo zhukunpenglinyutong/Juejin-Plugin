@@ -12,13 +12,13 @@
 
 **油猴怎么安装，懂的人无需多言 [链接](https://www.baidu.com/s?ie=UTF-8&wd=%E6%B2%B9%E7%8C%B4%E5%AE%89%E8%A3%85)**
 
-**(插件地址)[https://greasyfork.org/zh-CN/scripts/388044-%E6%8E%98%E9%87%91%E6%8F%92%E4%BB%B6]**
+**[掘金点赞文章分类插件 油猴地址](https://greasyfork.org/zh-CN/scripts/388044-%E6%8E%98%E9%87%91%E6%8F%92%E4%BB%B6)**
 
-**[代码链接](https://github.com/zhukunpenglinyutong/Juejin-Plugin/blob/master/%E6%8F%92%E4%BB%B6%E4%B8%80%EF%BC%9A%E8%B5%9E%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8A%9F%E8%83%BD/tampermonkey%E7%89%88%E6%9C%AC%EF%BC%88%E6%B2%B9%E7%8C%B4%EF%BC%89/index.js)**
+**[实现代码链接](https://github.com/zhukunpenglinyutong/Juejin-Plugin/blob/master/%E6%8F%92%E4%BB%B6%E4%B8%80%EF%BC%9A%E8%B5%9E%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8A%9F%E8%83%BD/tampermonkey%E7%89%88%E6%9C%AC%EF%BC%88%E6%B2%B9%E7%8C%B4%EF%BC%89/index.js)**
 
-- 此版本插件，没有跨域问题，提高速度 50%+（站长3.7k的点赞文章，也能在15s左右处理完成，我点赞文章100+，基本上1-2s左右，甚至更短）
+- 此版本插件，没有跨域问题，提高速度 50%+（站长3.7k的点赞文章，也能在8-20s左右处理完成，我点赞文章100+，基本上1s左右，甚至更短）
 - 此版本插件，采用原生JS写法构建展示效果，不依赖 element.ui，简化了需要下载的文件
-- 此版本插件，采用 我自己写的简单MVVM 实现数据响应，优化DOM部分操作的代码，代码更清晰
+- 此版本插件，采用 我自己写的简单数据劫持 实现数据响应，优化DOM部分操作的代码，代码更清晰
 
 ---
 
