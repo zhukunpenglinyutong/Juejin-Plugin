@@ -1,7 +1,7 @@
 # 掘金插件
 
 <p align="center">
-    <p>掘金社区是促使我成长的社区，我也愿意为此付出我的时间，优化我爱的这个社区</>
+    <p>掘金社区是促使我成长的社区，我也愿意为此付出我的时间，优化我爱的这个社区</p>
     <a href="javascript:;"><img src="https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg" alt="MIT"></a>
     <a href="javascript:;"><img src="https://img.shields.io/github/languages/code-size/zhukunpenglinyutong/Juejin-Plugin" alt="文件大小"></a>
     <a href="javascript:;"><img src="https://img.shields.io/github/last-commit/zhukunpenglinyutong/Juejin-Plugin" alt="最后一次提交"></a>
