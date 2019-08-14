@@ -1,7 +1,5 @@
 # 掘金插件
 
-<p>掘金社区是促使我成长的社区，我也愿意为此付出我的时间，优化我爱的这个社区</p>
-
 <p align="center">
     <a href="javascript:;"><img src="https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg" alt="MIT"></a>
     <a href="javascript:;"><img src="https://img.shields.io/github/languages/code-size/zhukunpenglinyutong/Juejin-Plugin" alt="文件大小"></a>
@@ -12,7 +10,13 @@
 
 ---
 
-## 开发计划
+## 🏅前言
+
+**掘金社区是促使我成长的社区，我也愿意为此付出我的时间，优化我爱的这个社区❤️**
+
+---
+
+## 🎖开发计划
 
 **敬请期待项目结构优化后的效果吧，现在的结构就是一坨\***
 
@@ -21,10 +25,13 @@
     - [ ] 引入Jest进行单元测试 && 集成测试
     - [ ] 重新优化代码，采用TDD驱动开发，并采用模块化开发方式
 - [ ] 用户主页 - 赞文章分类功能
-    - [ ] 
-    - [ ] 
-    - [ ] 
-    - [ ]
-    - [ ] 
-    - [ ] 
+    - [ ] 1
+    - [ ] 2
+    - [ ] 3
+    - [ ] 4
+    - [ ] 5
+    - [ ] 6
 - [ ] 掘金首页 - 看你想看的内容
+
+---
+
