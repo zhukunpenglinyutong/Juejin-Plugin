@@ -1,8 +1,11 @@
 # 掘金插件
 
 <p align="center">
-    掘金社区是促使我成长的社区，我也愿意为此付出我的时间，优化我爱的这个社区
-    <a href="javascript:;"><img src="https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg" alt="朱昆鹏 MIT"></a>
+    <p>掘金社区是促使我成长的社区，我也愿意为此付出我的时间，优化我爱的这个社区</>
+    <a href="javascript:;"><img src="https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg" alt="MIT"></a>
+    <a href="javascript:;"><img src="https://img.shields.io/github/languages/code-size/zhukunpenglinyutong/Juejin-Plugin" alt="文件大小"></a>
+    <a href="javascript:;"><img src="https://img.shields.io/github/last-commit/zhukunpenglinyutong/Juejin-Plugin" alt="最后一次提交"></a>
+    <a href="javascript:;"><img src="https://img.shields.io/github/commit-activity/y/zhukunpenglinyutong/Juejin-Plugin" alt="每年提交数"></a>
     <img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/Juejin-Plugin/0.%E7%AB%99%E9%95%BF%E5%AE%B6%E7%9A%84%E7%8C%AB.png">
 </p>
 
