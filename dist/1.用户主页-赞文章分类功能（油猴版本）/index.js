@@ -11,6 +11,12 @@
 
 let globalData = null; // 全局数据
 
+// defineReactive(window.history, 'state', window.history.state)
+
+window.addEventListener('popstate', e => {
+  console.log('触发：', e)
+})
+
 // 实现一个简单的路由监听（监听跳转是否是主页）
 window.addEventListener('load', function (e) {
     var reg = /https:\/\/juejin.im\/user/;
@@ -308,10 +314,12 @@ function defineReactive (obj, key, value) {
         configurable: true,
 
         get () {
+            console.log('获取')
            return value
         },
 
         set (newValue) {
+            console.log('值改变了', newValue)
            value = newValue
            createDialogContent(value) // 更新视图 (生成详细文章列表)
         }
